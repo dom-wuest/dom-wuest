@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hey, Dom here 👋
 
 <!--
 **dom-wuest/dom-wuest** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+🌱 I’m currently studying computer science at KIT, where I focus on rendering and artificial intelligence. 
+Besides my studies, I am employed as a research assistant at Fraunhofer IOSB in Karlsruhe, where I work on structure-from-motion and computer-vision tasks.
+
+- Check out my research and work on my [website](https://dom-wuest.de) or
+- Or browse my project below
+
