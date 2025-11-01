@@ -1,16 +1,25 @@
-## Hi there 👋
+# Hi there, I'm Dominik 👋
 
-<!--
-**dom-wuest/dom-wuest** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
 
-Here are some ideas to get you started:
+I'm a passionate software developer with a focus on building innovative solutions and exploring new technologies. I enjoy working on both personal and professional projects that challenge me to learn and grow.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 Technologies & Tools
+
+- **Languages:** JavaScript, TypeScript, Python, and more
+- **Frameworks & Libraries:** React, Node.js, and various modern web technologies
+- **Tools:** Git, Docker, CI/CD pipelines
+- **Interests:** Web development, automation, and open-source contributions
+
+## 🚀 Current Projects
+
+I'm actively working on various projects ranging from web applications to automation tools. Check out my repositories to see what I'm building!
+
+## 📫 Get in Touch
+
+- Website: [dom-wuest.de](https://dom-wuest.de)
+- GitHub: [@dom-wuest](https://github.com/dom-wuest)
+
+---
+
+💡 *Feel free to explore my repositories and reach out if you'd like to collaborate!*
