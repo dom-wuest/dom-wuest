@@ -31,5 +31,5 @@ Besides my studies, I am employed as a research assistant at Fraunhofer IOSB in 
 
 ## 📊 &nbsp;Stats
 
-![Dom's Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dom-wuest&layout=compact&theme=dark&icon_color=0077b5&title_color=0077b5&bg_color=0d1116&text_color=a4aacb)
-![Dom's Github Stats](https://github-readme-stats.vercel.app/api?username=dom-wuest&hide=issues&show_icons=true&theme=dark&icon_color=0077b5&title_color=0077b5&bg_color=0d1116&text_color=a4aacb)
+![Dom's Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dom-wuest&layout=compact&theme=dark&icon_color=0077b5&title_color=0077b5&bg_color=0d1116&text_color=a4aacb&hide_border=true)
+![Dom's Github Stats](https://github-readme-stats.vercel.app/api?username=dom-wuest&hide=issues&show_icons=true&theme=dark&icon_color=0077b5&title_color=0077b5&bg_color=0d1116&text_color=a4aacb&hide_border=true)
