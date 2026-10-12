@@ -1,0 +1,93 @@
+# Profile banner configuration.
+# Edit this file, then rebuild from the repository root with:
+#
+#     uv run banner/build.py
+#
+# Coordinates are in SVG units on the canvas below, times are in seconds.
+
+[output]
+dir = "../assets"          # relative to this file
+name = "banner-{theme}.svg"
+
+[canvas]
+width = 1200
+height = 400
+corner_radius = 16
+title = "Hey there, I'm Dom. ML & Rendering Engineer, researcher and rocket enthusiast. Check out my work."
+
+[fonts]
+regular = "fonts/JetBrainsMono-Regular.ttf"
+bold = "fonts/JetBrainsMono-Bold.ttf"
+
+[typing]
+start_delay = 0.8   # before the first character appears
+line_pause = 0.6    # between two lines
+hold = 9.0          # finished text stays visible
+fade = 0.8          # fade out before the loop restarts
+gap = 0.6           # empty banner before typing starts again
+cursor_blink = 1.0  # blink period
+
+# Lines are typed one after another. `color` refers to a key of the theme.
+[[lines]]
+text = "Hey there, I'm Dom."
+font = "bold"
+size = 64
+x = 72
+y = 172
+color = "title"
+char_delay = 0.085
+
+[[lines]]
+text = "ML & Rendering Engineer, researcher and rocket enthusiast."
+font = "regular"
+size = 26
+x = 74
+y = 236
+color = "text"
+char_delay = 0.045
+
+[[lines]]
+text = "Check out my work ↓"
+font = "regular"
+size = 24
+x = 74
+y = 300
+color = "accent"
+char_delay = 0.06
+
+[graph]
+seed = 7
+nodes = 20
+region = [560, 40, 1160, 360]   # x0, y0, x1, y1 where nodes are placed
+min_distance = 68               # between two nodes
+neighbours = 3                  # each node links to its nearest neighbours
+max_edge = 230                  # longer links are dropped
+amplitude = [6, 16]             # drift radius range
+radius = [2.5, 6.5]             # node radius range
+period = 24.0                   # one full drift loop
+fade = [520, 860]               # graph fades in between these x positions
+text_halo = 22                  # graph keeps this distance from the text
+edge_opacity = 0.4
+samples = 24                    # keyframes per drift loop
+
+[themes.dark]
+background = ["#0d1117", "#0c2136"]
+glow = "#0077b5"
+glow_opacity = 0.35
+border = "#30363d"
+title = "#e6edf3"
+text = "#a4aacb"
+accent = "#3ea6ff"
+node = "#58a6ff"
+edge = "#58a6ff"
+
+[themes.light]
+background = ["#ffffff", "#e2eff9"]
+glow = "#4aa8e0"
+glow_opacity = 0.25
+border = "#d0d7de"
+title = "#1f2328"
+text = "#424a53"
+accent = "#0077b5"
+node = "#0077b5"
+edge = "#0077b5"
